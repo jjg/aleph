@@ -1,0 +1,4 @@
+digraph G {
+  file -> block -> hash -> block_metadata;
+  block_metadata -> "LF-01" -> block;
+}
