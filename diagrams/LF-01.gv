@@ -1,0 +1,9 @@
+digraph G {
+  block_key [shape=box];
+  
+  subgraph cluster0 {
+    generator -> "hash function" -> comparitor -> data;
+  }
+  
+  block_key -> manifold;
+}
